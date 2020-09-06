@@ -1,0 +1,9 @@
+.add-pos{
+    width: 100px;
+}
+.add-pos:hover{
+    background-color: cyan;
+}
+form{
+    margin-left: 300px;
+}

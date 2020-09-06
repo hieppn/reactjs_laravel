@@ -1,0 +1,10 @@
+.searchbar{
+    margin-top: 0;
+    background-color: blue;
+}
+.inputsearch{
+    position: absolute;
+    float: right;
+    margin-top: -60px;
+    margin-left: 1320px;
+}

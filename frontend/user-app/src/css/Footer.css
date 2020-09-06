@@ -1,0 +1,25 @@
+.footer{
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;*/
+    width: 100%; 
+    position: absolute;
+    /* position: relative; */
+    background-color:black;
+    color: white;
+   
+  }
+.footer-main {
+    width: 100%;
+    float: left;
+}
+.footer-column {
+    width:33.333333%;
+    float:left;
+    margin-top: 40px;
+}
+.item{
+    margin-left: 20px;
+    color: white;
+}
