@@ -6,7 +6,6 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-    <center><h1>Chỉnh sửa thông tin sản phẩm</h1></center>
     <div class="container-fluid mt-3">
          <form method="post" action="{{'/admin/book/'.$book->id}}" enctype="multipart/form-data" style="margin-left: 500px;">
             @csrf
@@ -57,7 +56,7 @@
                     <div >
                     <label>Hình ảnh:</label>
                     <div class="col-md-6">
-                        <input type="file" required class="form-control" value="{{$book->image}}" name="image"><img src="{{'/storage/'.$book->image}}" width="150px" height="130px" >
+                        <input type="file" class="form-control" value="{{$book->image}}" name="image"><img src="{{'/storage/'.$book->image}}" width="150px" height="130px" >
                         </div>
                     </div>
                     <div >

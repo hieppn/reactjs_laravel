@@ -13,7 +13,6 @@
 	</style>
 </head>
 <body>
-	<center><h1>Thêm sản phẩm</h1></center>
 	<form method="post" action="/admin/books" enctype="multipart/form-data">
 		@csrf
 	  <div class="form-group">

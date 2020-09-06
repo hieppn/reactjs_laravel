@@ -8,8 +8,7 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-<a href="./book/create"><button type="button" class=" btn btn-light">Thêm sản phẩm</button></a>
-<center><h1>Thông tin sản phẩm</h1></center>
+<a href="./book/create"><button type="button" class=" btn btn-light">Thêm sản sách</button></a>
 <table align="center" width="600px" border="1" cellspacing="0" cellpadding="3"
                 class="table table-hover table-bordered">
                 <tr class="table-primary table-header" style="text-align: center;">
@@ -18,7 +17,7 @@
                     <th>Giá hiện tại</th>
                     <th>Giá cũ</th>
                     <th>Số lượng</th>
-                    <th>Nguồn gốc</th>
+                    <th>Tác giả</th>
                     <th>Trạng thái</th>
                     <th>Tên loại sản phẩm</th>
                     <th>Hình ảnh</th>

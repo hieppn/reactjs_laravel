@@ -26,4 +26,17 @@ class BookController extends Controller
         }
         return json_encode($books);
     }
+     public function newBook()
+    {
+        $books = Book::whereBetween('id', [1, 4])->get();
+        foreach($books as $book){
+          $book->category;
+        }
+        return json_encode($books);
+    }
+     function show($id,Request $Request){
+        $book = Book::where('id','=',$id)->first();
+          $book->category;
+       return json_encode($book);
+   }
 }

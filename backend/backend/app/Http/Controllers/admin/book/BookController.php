@@ -30,8 +30,8 @@ class BookController extends Controller
 	 	}
 	 	else if($quantity>0){
 	 		$status = "Còn";
-	 	}
-      $image = $request->file('image')->store('public');
+     }
+     $image = $request->file('image')->store('public');
 	    $name = $request->input('name');
 	    $price= $request->input('price');
 	    $oldprice = $request->input('oldprice'); 
@@ -44,8 +44,8 @@ class BookController extends Controller
       $book->author=$author;
       $book->description=$description;
       $book->status=$status;
-      $book->quantity=$quantity;
       $book->image=$image;
+      $book->quantity=$quantity;
       $book->id_category=$id;
       $book->save();
       return redirect('/admin/books/');

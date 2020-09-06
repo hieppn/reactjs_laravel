@@ -15,7 +15,7 @@ class CategoryController extends Controller
     }
      function edit($id){
       		$category = Category::find($id);
-      return view("admin/category/edit",['category'=>$category]);
+            return view("admin/category/edit",['category'=>$category]);
     }
      function update($id, Request $request){
 	 	$name = $request->input('name');

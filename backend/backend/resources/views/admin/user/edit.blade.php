@@ -27,7 +27,11 @@
                <div>
                      <label>Vai trò:</label>
                   <div class="col-md-6">
+                  @if($user->role=="admin")
+                     <input type="text" class="form-control"readOnly name="role" value="{{$user->role}}">
+                     @else
                      <input type="text" class="form-control" name="role" value="{{$user->role}}">
+                     @endif
                   </div>
                </div>
                <div >
